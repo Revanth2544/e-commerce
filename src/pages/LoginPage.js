@@ -41,11 +41,6 @@ const LoginPage = () => {
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
-          {/* Test credentials hint */}
-          <div className="bg-blue-50 border border-blue-200 text-blue-700 px-4 py-3 rounded-lg text-sm mb-6">
-            <strong>Test Login:</strong> username: <code className="bg-blue-100 px-1 rounded">emilys</code> &nbsp;|&nbsp; password: <code className="bg-blue-100 px-1 rounded">emilyspass</code>
-          </div>
-
           {error && (
             <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm mb-6">
               {error}

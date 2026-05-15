@@ -2,6 +2,7 @@
   "name": "shopping",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://revanth2544.github.io/e-commerce",
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
     "@tailwindcss/postcss": "^4.3.0",
@@ -10,6 +11,7 @@
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.16.1",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^1.16.0",
     "postcss": "^8.5.14",
     "react": "^19.2.6",
@@ -26,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
